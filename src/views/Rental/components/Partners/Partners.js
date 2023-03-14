@@ -30,7 +30,7 @@ const Partners = () => {
           'https://assets.maccarianagency.com/svg/logos/paypal-original.svg',
         ].map((item, i) => (
           <Box maxWidth={90} marginTop={2} marginRight={4} key={i}>
-            <Box
+            {/* <Box
               component="img"
               height={1}
               width={1}
@@ -42,8 +42,8 @@ const Partners = () => {
                     ? 'brightness(0) invert(0.7)'
                     : 'none',
               }}
-            />
-          </Box>
+            /> */}
+          </Box> 
         ))}
       </Box>
     </Box>

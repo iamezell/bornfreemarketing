@@ -5,11 +5,11 @@ import Box from '@mui/material/Box';
 import useMediaQuery from '@mui/material/useMediaQuery';
 
 const mock = [
-  'https://residential.directvdealer.com/wp-content/uploads/2023/01/5798-Born-Free-Logo-206K-p2.jpg',
-  'https://nationalbroadband.com/content/img/logos/frontier-logo-color.png',
-  'https://corporate.comcast.com/media/img/original/2019/02/corporate_Creative_xfinity_Logo.png',
-  'https://residential.directvdealer.com/wp-content/themes/directv-rebrand/assets/images/directv-dealer-badge-color-black.png',
-  'https://us1-photo.nextdoor.com/business_logo/06/b9/06b9509d2ddab21b5750575f77f37f81.jpeg?request_version=v2&output_type=jpeg&sizing=linear&x_size=1&resize_type=resize&density=2'
+  {'imgSource':'https://residential.directvdealer.com/wp-content/uploads/2023/01/5798-Born-Free-Logo-206K-p2.jpg', 'linkTo':'/'},
+  {'imgSource':'https://nationalbroadband.com/content/img/logos/frontier-logo-color.png', 'linkTo':'/'},
+  {'imgSource':'https://corporate.comcast.com/media/img/original/2019/02/corporate_Creative_xfinity_Logo.png', 'linkTo':'/'},
+  {'imgSource':'https://residential.directvdealer.com/wp-content/themes/directv-rebrand/assets/images/directv-dealer-badge-color-black.png', 'linkTo':'https://residential.directvdealer.com/massachusetts/springfield/born-free-marketing/'},
+  {'imgSource':'https://us1-photo.nextdoor.com/business_logo/06/b9/06b9509d2ddab21b5750575f77f37f81.jpeg?request_version=v2&output_type=jpeg&sizing=linear&x_size=1&resize_type=resize&density=2', 'linkTo':'/'},
 ];
 
 const Partners = () => {
@@ -61,8 +61,9 @@ const Partners = () => {
               component="img"
               height={1}
               width={1}
-              src={item}
+              src={item.imgSource}
               alt="..."
+              onClick={()=>window.location.href=item.linkTo}
               sx={{
                 filter:
                   theme.palette.mode === 'dark'

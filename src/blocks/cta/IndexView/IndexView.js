@@ -29,7 +29,7 @@ const IndexView = () => {
         </Container>
         <Container maxWidth={1500} paddingY={'0 !important'}>
           <Box>
-            <Typography variant={'h4'} fontWeight={700}>
+            <Typography variant={'h2'} fontWeight={700}>
               Call to actions
             </Typography>
             <Typography>
