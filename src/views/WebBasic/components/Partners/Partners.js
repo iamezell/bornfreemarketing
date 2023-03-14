@@ -9,7 +9,7 @@ const mock = [
   'https://nationalbroadband.com/content/img/logos/frontier-logo-color.png',
   'https://corporate.comcast.com/media/img/original/2019/02/corporate_Creative_xfinity_Logo.png',
   'https://residential.directvdealer.com/wp-content/themes/directv-rebrand/assets/images/directv-dealer-badge-color-black.png',
-  'https://assets.maccarianagency.com/svg/logos/slack-original.svg',
+  'https://us1-photo.nextdoor.com/business_logo/06/b9/06b9509d2ddab21b5750575f77f37f81.jpeg?request_version=v2&output_type=jpeg&sizing=linear&x_size=1&resize_type=resize&density=2'
 ];
 
 const Partners = () => {
