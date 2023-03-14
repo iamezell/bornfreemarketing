@@ -5,14 +5,10 @@ import Box from '@mui/material/Box';
 import useMediaQuery from '@mui/material/useMediaQuery';
 
 const mock = [
-  'https://assets.maccarianagency.com/svg/logos/airbnb-original.svg',
-  'https://assets.maccarianagency.com/svg/logos/amazon-original.svg',
-  'https://assets.maccarianagency.com/svg/logos/fitbit-original.svg',
-  'https://assets.maccarianagency.com/svg/logos/netflix-original.svg',
-  'https://assets.maccarianagency.com/svg/logos/google-original.svg',
-  'https://assets.maccarianagency.com/svg/logos/paypal-original.svg',
-  'https://assets.maccarianagency.com/svg/logos/hubspot-original.svg',
-  'https://assets.maccarianagency.com/svg/logos/mapbox-original.svg',
+  'https://residential.directvdealer.com/wp-content/uploads/2023/01/5798-Born-Free-Logo-206K-p2.jpg',
+  'https://nationalbroadband.com/content/img/logos/frontier-logo-color.png',
+  'https://corporate.comcast.com/media/img/original/2019/02/corporate_Creative_xfinity_Logo.png',
+  'https://residential.directvdealer.com/wp-content/themes/directv-rebrand/assets/images/directv-dealer-badge-color-black.png',
   'https://assets.maccarianagency.com/svg/logos/slack-original.svg',
 ];
 

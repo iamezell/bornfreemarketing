@@ -36,6 +36,7 @@ const Topbar = ({ onSidebarOpen, pages, colorInvert = false }) => {
         width={{ xs: 100, md: 120 }}
       >
         <Box />
+          <image src='https://residential.directvdealer.com/wp-content/uploads/2023/01/5798-Born-Free-Logo-206K-p2.jpg'/>
           <Typography color={linkColor} variant={'h4'}  sx={{ fontWeight: 700 }}>
           Born Free Marketing
           </Typography>
